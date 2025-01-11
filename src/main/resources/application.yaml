@@ -1,0 +1,25 @@
+
+# Database Configuration
+server:
+  port: 7777
+
+spring:
+  datasource:
+    url:
+    username: root
+    password: CgDHgA5AC-fD1Ah4aBhagbe142b4-GEa
+    driver-class-name : com.mysql.cj.jdbc.Driver
+
+  main:
+    web-application-type=none:
+    allow-circular-references: true
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
